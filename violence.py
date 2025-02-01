@@ -7,8 +7,8 @@ from tensorflow.keras.models import load_model
 import time
 
 # Load models
-human_model = YOLO("D:\College_Stuff\TA\models\yolo11n.pt")
-violence_model_path = "D:\College_Stuff\TA\models\modelv3L-84.35-noatt.keras"
+human_model = YOLO("yolo11n.pt")
+violence_model_path = "modelv3L-84.35-noatt.keras"
 violence_model = load_model(violence_model_path, safe_mode=False)
 
 # Constants
