@@ -7,8 +7,8 @@
 <ol>
   <li>Human Detection with YOLOv11</li>
   <ul>
-    <li>Extracts human poses and coordinates from each frame.</li>
     <li>Filters out frames that do not contain detected humans.</li>
+    <li>Filtered frame are proceeds to pre-processing before handed by MobileNetv3 for violence prediction</li>
   </ul>
   <li>Feature Extraction with MobileNetV3</li>
   <ul>
