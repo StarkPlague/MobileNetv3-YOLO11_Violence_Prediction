@@ -49,6 +49,7 @@ Recommended Frameworks:
     <li>Ensure you are using the latest versions of TensorFlow and PyTorch to avoid compatibility issues with Bi-LSTM and MobileNetV3.</li>
     <li>The model is optimized for short video clips and may not work well on very long sequences, that's why YOLO is used for filtering the non-human-frames.</li>
     <li>the dataset used in this project is primary and secondary datasets. the primary datasets are not included in this repo because of privacy. you can take your own videos and clip it 1-5 seconds in a relevant part of frames. ;)</li>
+    <li>use the batch if you want to do preditcion with several files.</li>
 </u>
 <br>
 *this readme is not finished yet :p, i'll make another description for more informations
