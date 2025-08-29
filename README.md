@@ -52,4 +52,4 @@ Recommended Frameworks:
     <li>use the batch if you want to do preditcion with several files.</li>
 </u>
 <br>
-*this readme is not finished yet :p, i'll make another description for more informations
+<img src="imagess/Screenshot 2025-08-29 105429.png.png" width="300" />
